@@ -1,0 +1,59 @@
+internal/streams/legacy.js:59
+      throw er; // Unhandled stream error in pipe.
+      ^
+
+Error: connect ETIMEDOUT 151.101.2.109:80
+    at Object._errnoException (util.js:1003:13)
+    at _exceptionWithHostPort (util.js:1024:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1194:14)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! skillshare_dl@1.0.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the skillshare_dl@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Drago\AppData\Roaming\npm-cache\_logs\2018-01-13T09_54_36_729Z-debug.log
+
+DEBUG.LOG*
+----------
+
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'start' ]
+2 info using npm@5.6.0
+3 info using node@v9.4.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle skillshare_dl@1.0.0~prestart: skillshare_dl@1.0.0
+6 info lifecycle skillshare_dl@1.0.0~start: skillshare_dl@1.0.0
+7 verbose lifecycle skillshare_dl@1.0.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle skillshare_dl@1.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Drago\Desktop\Skill-Share-Crawler---DL-master\node_modules\.bin;C:\MinGW\bin;C:\MinGW\libexec\gcc\x86_64-w64-mingw32\7.2.0;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\Drago\Desktop\piralsight;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Users\Drago\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Drago\AppData\Local\Programs\Python\Python36-32\;C:\Users\Drago\AppData\Local\Microsoft\WindowsApps;D:\Applications\Softwares\HtmlCompiler;C:\Program Files (x86)\FreeArc\bin;C:\Users\Drago\Desktop\piralsight;C:\Users\Drago\AppData\Local\Programs\Fiddler;C:\Users\Drago\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-9.0.1\bin;C:\Program Files\Java\jdk1.8.0_151\bin;D:\Applications\android-ndk-r16b;D:\Applications\android-sdk-windows\platform-tools;C:\MinGW\bin;C:\MinGW\x86_64-w64-mingw32\bin;C:\Users\Drago\AppData\Roaming\npm
+9 verbose lifecycle skillshare_dl@1.0.0~start: CWD: C:\Users\Drago\Desktop\Skill-Share-Crawler---DL-master
+10 silly lifecycle skillshare_dl@1.0.0~start: Args: [ '/d /s /c', 'node index.js' ]
+11 silly lifecycle skillshare_dl@1.0.0~start: Returned: code: 1  signal: null
+12 info lifecycle skillshare_dl@1.0.0~start: Failed to exec start script
+13 verbose stack Error: skillshare_dl@1.0.0 start: `node index.js`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\index.js:285:16)
+13 verbose stack     at EventEmitter.emit (events.js:160:13)
+13 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:160:13)
+13 verbose stack     at maybeClose (internal/child_process.js:943:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
+14 verbose pkgid skillshare_dl@1.0.0
+15 verbose cwd C:\Users\Drago\Desktop\Skill-Share-Crawler---DL-master
+16 verbose Windows_NT 10.0.16299
+17 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "start"
+18 verbose node v9.4.0
+19 verbose npm  v5.6.0
+20 error code ELIFECYCLE
+21 error errno 1
+22 error skillshare_dl@1.0.0 start: `node index.js`
+22 error Exit status 1
+23 error Failed at the skillshare_dl@1.0.0 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
